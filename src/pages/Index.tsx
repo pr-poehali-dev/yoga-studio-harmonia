@@ -274,6 +274,157 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Atmosphere */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-montserrat font-semibold text-sage-800 mb-4">
+              Атмосфера нашей студии
+            </h2>
+            <p className="text-xl text-sage-600 max-w-2xl mx-auto">
+              Пространство, созданное для внутренней гармонии и умиротворения
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div className="space-y-6">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-sage-100 rounded-full flex items-center justify-center">
+                  <Icon name="Leaf" className="h-6 w-6 text-sage-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-montserrat font-medium text-sage-800 mb-2">
+                    Природные материалы
+                  </h3>
+                  <p className="text-sage-600">
+                    Натуральное дерево, камень и живые растения создают связь с
+                    природой
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-sage-100 rounded-full flex items-center justify-center">
+                  <Icon name="Sun" className="h-6 w-6 text-sage-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-montserrat font-medium text-sage-800 mb-2">
+                    Естественное освещение
+                  </h3>
+                  <p className="text-sage-600">
+                    Большие окна наполняют залы мягким дневным светом
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-sage-100 rounded-full flex items-center justify-center">
+                  <Icon name="Volume2" className="h-6 w-6 text-sage-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-montserrat font-medium text-sage-800 mb-2">
+                    Тишина и покой
+                  </h3>
+                  <p className="text-sage-600">
+                    Звукоизоляция и медитативная музыка для полного погружения
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-sage-100 rounded-full flex items-center justify-center">
+                  <Icon name="Sparkles" className="h-6 w-6 text-sage-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-montserrat font-medium text-sage-800 mb-2">
+                    Чистота и порядок
+                  </h3>
+                  <p className="text-sage-600">
+                    Регулярная уборка и свежий воздух для комфортной практики
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative">
+              <img
+                src="/img/2c9ad655-9d78-4742-a665-7b9ee0aede4a.jpg"
+                alt="Атмосфера студии"
+                className="rounded-2xl shadow-xl w-full h-[500px] object-cover"
+              />
+              <div className="absolute top-6 right-6 bg-white/90 backdrop-blur-sm p-4 rounded-xl">
+                <div className="flex items-center space-x-2">
+                  <Icon name="Heart" className="h-5 w-5 text-sage-500" />
+                  <span className="text-sage-800 font-montserrat font-medium">
+                    Место силы
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="w-20 h-20 bg-sage-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon name="TreePine" className="h-10 w-10 text-sage-600" />
+              </div>
+              <h3 className="text-xl font-montserrat font-medium text-sage-800 mb-2">
+                Зал "Лес"
+              </h3>
+              <p className="text-sage-600">
+                Главный зал с высокими потолками и видом на сад
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-20 h-20 bg-sage-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon name="Waves" className="h-10 w-10 text-sage-600" />
+              </div>
+              <h3 className="text-xl font-montserrat font-medium text-sage-800 mb-2">
+                Зал "Река"
+              </h3>
+              <p className="text-sage-600">
+                Уютный зал для медитации и спокойных практик
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-20 h-20 bg-sage-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon name="Mountain" className="h-10 w-10 text-sage-600" />
+              </div>
+              <h3 className="text-xl font-montserrat font-medium text-sage-800 mb-2">
+                Зал "Гора"
+              </h3>
+              <p className="text-sage-600">
+                Просторный зал для динамичных занятий
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-16 relative">
+            <img
+              src="/img/c0c6ea9a-4e13-43da-ac39-a5cc2e0343b0.jpg"
+              alt="Занятие йогой"
+              className="rounded-2xl shadow-xl w-full h-[400px] object-cover"
+            />
+            <div className="absolute inset-0 bg-sage-800/40 rounded-2xl flex items-center justify-center">
+              <div className="text-center text-white">
+                <Icon
+                  name="Play"
+                  className="h-16 w-16 mx-auto mb-4 cursor-pointer hover:scale-110 transition-transform"
+                />
+                <h3 className="text-2xl font-montserrat font-medium mb-2">
+                  Виртуальный тур по студии
+                </h3>
+                <p className="text-sage-100">
+                  Познакомься с нашими залами не выходя из дома
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Prices */}
       <section id="prices" className="py-20 bg-white">
         <div className="container mx-auto px-4">
